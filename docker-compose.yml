@@ -1,8 +1,8 @@
 version: '3'
 services:
- web:
- build: .
- command: python app.py
- ports:
- - "80:80"
- restart: always
+  web:
+    build: .
+    command: python app.py
+    ports:
+      - "80:80"
+    restart: always
